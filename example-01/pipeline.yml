@@ -1,5 +1,5 @@
 jobs:
-  - name: print-hello-2
+  - name: print-hello
     plan:
       - task: hello
         config:
