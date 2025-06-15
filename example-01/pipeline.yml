@@ -10,5 +10,7 @@ jobs:
           run:
             path: sh
             args:
-              - -c
-              - echo "Olá do pipeline template do GitHub!"
+              - -exc
+              - |
+                echo "Iniciando deploy"
+                exit 1  # Simula falha
