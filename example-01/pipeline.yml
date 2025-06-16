@@ -12,5 +12,5 @@ jobs:
             args:
               - -exc
               - |
-                echo "Iniciando deploy"
+                echo "Iniciando deploy 2"
                 exit 1  # Simula falha
